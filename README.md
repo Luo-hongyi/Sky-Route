@@ -26,13 +26,18 @@ The function take the datafile name and return a vector of Airport objects
 The function take the datafile name and return a vector of Edge objects
 The following two function take two aiports id and return a path between the two airport
 
-- getShortestPathWeighted: Using dijskra algorithm
-- getShortestPathUnweighted: Using BFS
+### getShortestPathWeighted:
+Using dijskra algorithm
+
+### getShortestPathUnweighted:
+Using BFS
 
 The weights specify how much of shortest distance (Dijkstra) a user cares about
 and how much of least number of transfers/transit flights (BFS) a user cares about
 when finding the most important airport in a specified country.
 
-- calcBetweennessCentrality: the function take parameter weight and do not return output
+### calcBetweennessCentrality:
+The function take parameter weight and do not return output
 
-- getMostImportantAirport: the function take two parameter of weights and return the airport name
+### getMostImportantAirport:
+the function take two parameter of weights and return the airport name
